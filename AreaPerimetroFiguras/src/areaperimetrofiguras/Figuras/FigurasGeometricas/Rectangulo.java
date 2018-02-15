@@ -6,6 +6,7 @@
 package areaperimetrofiguras.Figuras.FigurasGeometricas;
 
 import areaperimetrofiguras.Figuras.Figura;
+import java.util.Scanner;
 
 /**
  *
@@ -14,6 +15,8 @@ import areaperimetrofiguras.Figuras.Figura;
 public class Rectangulo extends Figura {
     public static void Rectangulo()
     {
-        
+        float x1, x2, y1, y2;
+        Scanner a = new Scanner(System.in);
+        x1 = a.nextInt();
     }
 }

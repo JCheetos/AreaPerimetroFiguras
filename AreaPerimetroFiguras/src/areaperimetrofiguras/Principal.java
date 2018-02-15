@@ -28,6 +28,8 @@ public class Principal {
         System.out.println("4. Circulo");
         Scanner a = new Scanner(System.in);
         opcion = a.nextInt();
+        
+        
         FiguraEleccion(opcion);   
         
     }
