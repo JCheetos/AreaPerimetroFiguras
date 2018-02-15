@@ -9,13 +9,10 @@ package areaperimetrofiguras;
  *
  * @author Cheetos
  */
-public class AreaPerimetroFiguras {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Principal {
+    
     public static void main(String[] args) {
         // TODO code application logic here
+        
     }
-    
 }
