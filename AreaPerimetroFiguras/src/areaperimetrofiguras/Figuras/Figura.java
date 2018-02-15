@@ -12,5 +12,20 @@ import areaperimetrofiguras.Principal;
  * @author Cheetos
  */
 public class Figura extends Principal {
-    
+    public static void FiguraEleccion() {
+        switch(opcion): {
+            case 1:
+                Cuadrado();
+            
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            default:
+                break;
+        }
+    }
 }

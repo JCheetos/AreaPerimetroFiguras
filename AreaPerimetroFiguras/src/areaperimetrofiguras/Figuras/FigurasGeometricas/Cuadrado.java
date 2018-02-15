@@ -12,5 +12,8 @@ import areaperimetrofiguras.Figuras.Figura;
  * @author Cheetos
  */
 public class Cuadrado extends Figura {
-    
+    public static void Cuadrado()
+    {
+        
+    }
 }
