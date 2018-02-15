@@ -5,6 +5,7 @@
  */
 package areaperimetrofiguras;
 
+import areaperimetrofiguras.Figuras.Figura;
 import static areaperimetrofiguras.Figuras.Figura.FiguraEleccion;
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public class Principal {
     
         
     public static void main(String[] args) {
-       
+        Figura FiguraEleccion = new Figura();
         int opcion;
         float area, perimetro;
         
@@ -27,7 +28,7 @@ public class Principal {
         System.out.println("4. Circulo");
         Scanner a = new Scanner(System.in);
         opcion = a.nextInt();
-        FiguraEleccion();
+        FiguraEleccion(opcion);   
         
     }
 }

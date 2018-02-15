@@ -12,5 +12,8 @@ import areaperimetrofiguras.Figuras.Figura;
  * @author Cheetos
  */
 public class Rectangulo extends Figura {
-    
+    public static void Rectangulo()
+    {
+        
+    }
 }

@@ -5,6 +5,7 @@
  */
 package areaperimetrofiguras.Figuras;
 
+import static areaperimetrofiguras.Figuras.FigurasGeometricas.Cuadrado.Cuadrado;
 import areaperimetrofiguras.Principal;
 
 /**
@@ -12,17 +13,19 @@ import areaperimetrofiguras.Principal;
  * @author Cheetos
  */
 public class Figura extends Principal {
-    public static void FiguraEleccion() {
-        switch(opcion): {
+    public static void FiguraEleccion(int opcion) {
+        switch(opcion) {
             case 1:
                 Cuadrado();
-            
                 break;
             case 2:
+                Rectangulo();
                 break;
             case 3:
+                Triangulo();
                 break;
             case 4:
+                Circulo();
                 break;
             default:
                 break;
