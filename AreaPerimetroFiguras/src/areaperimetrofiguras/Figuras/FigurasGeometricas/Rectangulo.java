@@ -5,10 +5,12 @@
  */
 package areaperimetrofiguras.Figuras.FigurasGeometricas;
 
+import areaperimetrofiguras.Figuras.Figura;
+
 /**
  *
  * @author Cheetos
  */
-public class Rectangulo {
+public class Rectangulo extends Figura {
     
 }

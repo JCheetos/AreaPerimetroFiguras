@@ -5,10 +5,12 @@
  */
 package areaperimetrofiguras.Figuras.FigurasGeometricas;
 
+import areaperimetrofiguras.Figuras.Figura;
+
 /**
  *
  * @author Cheetos
  */
-public class Triangulo {
+public class Triangulo extends Figura {
     
 }

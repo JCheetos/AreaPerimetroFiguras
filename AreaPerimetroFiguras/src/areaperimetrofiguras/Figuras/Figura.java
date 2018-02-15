@@ -5,10 +5,12 @@
  */
 package areaperimetrofiguras.Figuras;
 
+import areaperimetrofiguras.Principal;
+
 /**
  *
  * @author Cheetos
  */
-public class Figura {
+public class Figura extends Principal {
     
 }
