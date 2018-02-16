@@ -6,26 +6,24 @@
 package areaperimetrofiguras.Figuras.FigurasGeometricas;
 
 import areaperimetrofiguras.Figuras.Figura;
-import java.util.Scanner;
 
 /**
  *
  * @author Cheetos
  */
 public class Cuadrado extends Figura {
-    public float CuadradoArea(float x1, float x2)
-    {
-        float resultado, b;
-        b = x2-x1;
-        resultado = b*b;
-        return resultado;
+
+    @Override
+    public void calcularArea() {
+        double lado = this.p1.calcularDistancia(this.p2);
+        this.area = lado * lado;
     }
-    public float CuadradoPerimetro(float x1, float x2)
-    {
-        float resultado, b;
-        b = x2-x1;
-        resultado = b*4;
-        return resultado;
+
+    @Override
+    public void calcularPerimetro() {
+        double lado = this.p1.calcularDistancia(this.p2);
+        this.perimetro = lado * 4;
     }
+    
     
 }

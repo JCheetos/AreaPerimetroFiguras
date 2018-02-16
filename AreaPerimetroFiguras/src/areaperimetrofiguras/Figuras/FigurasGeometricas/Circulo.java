@@ -13,10 +13,17 @@ import java.util.Scanner;
  * @author Cheetos
  */
 public class Circulo extends Figura {
-    public static void Circulo()
-    {
-        float x1, x2, y1, y2;
-        Scanner a = new Scanner(System.in);
-        x1 = a.nextInt();
+
+    @Override
+    public void calcularArea() {
+        double radio = this.p1.calcularDistancia(this.p2);
+        this.area = Math.PI * radio * radio;
     }
+
+    @Override
+    public void calcularPerimetro() {
+        double radio = this.p1.calcularDistancia(this.p2);
+        this.perimetro = 2 * Math.PI * radio;
+    }
+
 }

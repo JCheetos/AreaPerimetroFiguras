@@ -13,10 +13,24 @@ import java.util.Scanner;
  * @author Cheetos
  */
 public class Rectangulo extends Figura {
-    public static void Rectangulo()
-    {
-        float x1, x2, y1, y2;
-        Scanner a = new Scanner(System.in);
-        x1 = a.nextInt();
+
+    @Override
+    public void calcularArea() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public void calcularPerimetro() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+//    public static void calcularArea()
+//    {
+//        float x1, x2, y1, y2;
+//        
+//    }
+//    public static void calcularPerimetro()
+//    {
+//        float x1, x2, y1, y2;
+//        
+//    }
 }
