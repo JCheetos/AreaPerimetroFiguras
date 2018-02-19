@@ -25,14 +25,4 @@ public class Rectangulo extends Figura {
         double resultado = (this.p1.calcularBase(this.p2)*2)+(this.p1.calcularAltura(this.p2)*2);
         this.perimetro = resultado;
     }
-//    public static void calcularArea()
-//    {
-//        float x1, x2, y1, y2;
-//        
-//    }
-//    public static void calcularPerimetro()
-//    {
-//        float x1, x2, y1, y2;
-//        
-//    }
 }
