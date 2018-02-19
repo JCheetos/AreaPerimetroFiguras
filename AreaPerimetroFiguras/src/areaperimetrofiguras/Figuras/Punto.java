@@ -26,4 +26,15 @@ public class Punto {
         double distancia = Math.sqrt(Math.pow((this.x - p.x),2)+Math.pow((this.y - p.y),2));
         return distancia;
     }
+    
+    public double calcularBase(Punto p){
+        double distancia = Math.sqrt(Math.pow((this.x - p.x),2)+Math.pow((this.y - p.y),2));
+        double base = Math.sqrt(Math.pow(distancia,2)-Math.pow((this.y - p.y),2));
+        return base;
+    }
+    public double calcularAltura(Punto p){
+        double distancia = Math.sqrt(Math.pow((this.x - p.x),2)+Math.pow((this.y - p.y),2));
+        double altura = Math.sqrt(Math.pow(distancia,2)-Math.pow((this.x - p.x),2));
+        return altura;
+    }
 }

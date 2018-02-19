@@ -6,7 +6,6 @@
 package areaperimetrofiguras.Figuras.FigurasGeometricas;
 
 import areaperimetrofiguras.Figuras.Figura;
-import java.util.Scanner;
 
 /**
  *
@@ -16,12 +15,14 @@ public class Triangulo extends Figura {
 
     @Override
     public void calcularArea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        double resultado = (this.p1.calcularBase(this.p2)*this.p1.calcularAltura(this.p2))/2;
+        this.area = resultado;
     }
 
     @Override
     public void calcularPerimetro() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        double resultado = this.p1.calcularBase(this.p2)+this.p1.calcularAltura(this.p2)+this.p1.calcularDistancia(this.p2);
+        this.perimetro = resultado;
     }
 //    public static void calcularArea()
 //    {

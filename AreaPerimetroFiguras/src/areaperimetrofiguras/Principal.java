@@ -9,6 +9,8 @@ import areaperimetrofiguras.Figuras.Figura;
 import areaperimetrofiguras.Figuras.FigurasGeometricas.Circulo;
 
 import areaperimetrofiguras.Figuras.FigurasGeometricas.Cuadrado;
+import areaperimetrofiguras.Figuras.FigurasGeometricas.Rectangulo;
+import areaperimetrofiguras.Figuras.FigurasGeometricas.Triangulo;
 import areaperimetrofiguras.Figuras.Punto;
 import java.util.Scanner;
 
@@ -19,17 +21,6 @@ import java.util.Scanner;
 public class Principal {
 
     public static void main(String[] args) {
-//        Figura FiguraEleccion = new Figura();
-//        int opcion;
-//        float area, perimetro;
-//        System.out.println("Por favor seleccione la figura cuyo Area y Perimetro desea conocer:");
-//        System.out.println("1. Cuadrado");
-//        System.out.println("2. Rectangulo");
-//        System.out.println("3. Triangulo");
-//        System.out.println("4. Circulo");
-//        Scanner a = new Scanner(System.in);
-//        opcion = a.nextInt();
-//        FiguraEleccion(opcion);   
 
         Figura figuraEleccion;
         int opcion;
@@ -60,8 +51,8 @@ public class Principal {
         figuraEleccion.calcularPerimetro();
         
         
-        System.out.println("el artea es: " + figuraEleccion.getArea());
-        System.out.println("el perimetro es " + figuraEleccion.getPerimetro());
+        System.out.println("El area es: " + figuraEleccion.getArea());
+        System.out.println("El perimetro es: " + figuraEleccion.getPerimetro());
     }
     
     
@@ -69,6 +60,10 @@ public class Principal {
         switch(opcion) {
             case 1:
                 return new Cuadrado();
+            case 2:
+                return new Rectangulo();
+            case 3:
+                return new Triangulo();
             default:
                 return new Circulo();
         }

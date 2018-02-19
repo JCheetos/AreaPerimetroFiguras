@@ -16,12 +16,14 @@ public class Rectangulo extends Figura {
 
     @Override
     public void calcularArea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        double resultado = this.p1.calcularBase(this.p2)*this.p1.calcularAltura(this.p2);
+        this.area = resultado;
     }
 
     @Override
     public void calcularPerimetro() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        double resultado = (this.p1.calcularBase(this.p2)*2)+(this.p1.calcularAltura(this.p2)*2);
+        this.perimetro = resultado;
     }
 //    public static void calcularArea()
 //    {
